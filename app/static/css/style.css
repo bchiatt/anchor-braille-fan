@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Michroma);
+
+body{
+  margin: 0px;
+  text-align: center;
+  background-color: rgba(204,209,205,1.00);
+  font-color: rgba(65, 56, 57, 1.00);
+}
+
+h1{
+  background-color: rgba(204,209,205,1.00);
+  color: rgba(65, 56, 57, 1.00);
+  font-family: 'Michroma', sans-serif;
+  padding-bottom: 0px;
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+
+nav{
+  padding: 5px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+a{
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgba(65, 56, 57, 1.00);
+  padding: 5px;
+  margin: 5px;
+}
+
+a:active{
+  color: rgba(204,209,205,1.00);
+  background-color: rgba(65, 56, 57, 1.00);
+}
+
+a:hover{
+  color: rgba(204,209,205,1.00);
+  background-color: rgba(65, 56, 57, 1.00);
+}
+
+a.this{
+  color: rgba(204,209,205,1.00);
+  background-color: rgba(65, 56, 57, 1.00);
+}
+
+img{
+  margin: 15px;
+}
+
+li{
+  list-style-type: none;
+  color: rgba(65, 56, 57, 1.00);
+}
+
+table{
+  color: rgba(65, 56, 57, 1.00);
+  margin: auto;
+  font-size: 25px;
+}
+
+thead{
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+td{
+  text-align: left;
+  padding: 5px;
+}
+
+footer{
+  padding-top: 15px;
+  color: rgba(65, 56, 57, 1.00);
+}
