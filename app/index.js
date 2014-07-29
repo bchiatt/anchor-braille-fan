@@ -26,7 +26,7 @@ app.get('/tour', function(req, res){
   res.render('tour');
   });
 
-app.listen(4000, function(){
-  console.log('Express.js is listening...');
+app.listen(process.env.PORT, function(){
+  console.log('Express.js is listening...on Port', process.env.PORT);
 });
 
